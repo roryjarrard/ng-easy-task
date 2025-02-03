@@ -2,14 +2,8 @@ import { Component } from '@angular/core';
 import { HeaderComponent } from './components/header/header.component';
 import { UserComponent } from './components/user/user.component';
 import { TasksComponent } from './components/tasks/tasks.component';
-
+import type { User } from './models/user';
 import { DUMMY_USERS } from './dummy-users';
-
-interface User {
-  id: string;
-  name: string;
-  avatar: string;
-}
 
 
 @Component({
