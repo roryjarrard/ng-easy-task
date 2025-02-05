@@ -1,3 +1,25 @@
+# APP CONTENT
+- components and component creation
+- decorators
+- Input, Output, input, output, signals
+- template binding, property binding, event binding
+- two-way binding  
+  - ngModel from FormsModule
+- @if @else template syntax (ng >= 17)
+  - *ngIf with else
+  ```
+  <some-component *ngIf="someProperty; else fallback" ... />
+  <ng-template #fallback>
+    <some-other-content ... />
+  </ng-template>
+  ```
+- @for (x of y; track x.id)
+  - *ngFor(let x of y)
+- <ng-content> as slot
+- date pipe
+- forms with FormsModule
+- services and dependency injection
+
 # Essentials
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
@@ -25,3 +47,4 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
